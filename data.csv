@@ -1,0 +1,741 @@
+id,prompt,function
+0,How many doors are there in the Main Lobby?,len([door for door in ifc_obj.by_type('IfcDoor') if 'Main Lobby' in door.Name])
+1,Count the number of doors in the Main Lobby.,len([door for door in ifc_obj.by_type('IfcDoor') if 'Main Lobby' in door.Name])
+2,What is the total number of doors in the Main Lobby?,len([door for door in ifc_obj.by_type('IfcDoor') if 'Main Lobby' in door.Name])
+3,Find out how many doors are in the Main Lobby.,len([door for door in ifc_obj.by_type('IfcDoor') if 'Main Lobby' in door.Name])
+4,Get the total count of doors in the Main Lobby.,len([door for door in ifc_obj.by_type('IfcDoor') if 'Main Lobby' in door.Name])
+5,How many doors are present in the Main Lobby?,len([door for door in ifc_obj.by_type('IfcDoor') if 'Main Lobby' in door.Name])
+6,List the number of doors in the Main Lobby.,len([door for door in ifc_obj.by_type('IfcDoor') if 'Main Lobby' in door.Name])
+7,Determine the number of doors in the Main Lobby.,len([door for door in ifc_obj.by_type('IfcDoor') if 'Main Lobby' in door.Name])
+8,What is the count of doors in the Main Lobby?,len([door for door in ifc_obj.by_type('IfcDoor') if 'Main Lobby' in door.Name])
+9,How many doors does the Main Lobby have?,len([door for door in ifc_obj.by_type('IfcDoor') if 'Main Lobby' in door.Name])
+10,Count the doors in the Main Lobby.,len([door for door in ifc_obj.by_type('IfcDoor') if 'Main Lobby' in door.Name])
+11,How many doors can be found in the Main Lobby?,len([door for door in ifc_obj.by_type('IfcDoor') if 'Main Lobby' in door.Name])
+12,Find the number of doors in the Main Lobby.,len([door for door in ifc_obj.by_type('IfcDoor') if 'Main Lobby' in door.Name])
+13,Get the number of doors in the Main Lobby.,len([door for door in ifc_obj.by_type('IfcDoor') if 'Main Lobby' in door.Name])
+14,Calculate the number of doors in the Main Lobby.,len([door for door in ifc_obj.by_type('IfcDoor') if 'Main Lobby' in door.Name])
+15,How many doors are there in the Conference Room?,len([door for door in ifc_obj.by_type('IfcDoor') if 'Conference Room' in door.Name])
+16,Count the number of doors in the Conference Room.,len([door for door in ifc_obj.by_type('IfcDoor') if 'Conference Room' in door.Name])
+17,What is the total number of doors in the Conference Room?,len([door for door in ifc_obj.by_type('IfcDoor') if 'Conference Room' in door.Name])
+18,Find out how many doors are in the Conference Room.,len([door for door in ifc_obj.by_type('IfcDoor') if 'Conference Room' in door.Name])
+19,Get the total count of doors in the Conference Room.,len([door for door in ifc_obj.by_type('IfcDoor') if 'Conference Room' in door.Name])
+20,How many doors are present in the Conference Room?,len([door for door in ifc_obj.by_type('IfcDoor') if 'Conference Room' in door.Name])
+21,List the number of doors in the Conference Room.,len([door for door in ifc_obj.by_type('IfcDoor') if 'Conference Room' in door.Name])
+22,Determine the number of doors in the Conference Room.,len([door for door in ifc_obj.by_type('IfcDoor') if 'Conference Room' in door.Name])
+23,What is the count of doors in the Conference Room?,len([door for door in ifc_obj.by_type('IfcDoor') if 'Conference Room' in door.Name])
+24,How many doors does the Conference Room have?,len([door for door in ifc_obj.by_type('IfcDoor') if 'Conference Room' in door.Name])
+25,Count the doors in the Conference Room.,len([door for door in ifc_obj.by_type('IfcDoor') if 'Conference Room' in door.Name])
+26,How many doors can be found in the Conference Room?,len([door for door in ifc_obj.by_type('IfcDoor') if 'Conference Room' in door.Name])
+27,Find the number of doors in the Conference Room.,len([door for door in ifc_obj.by_type('IfcDoor') if 'Conference Room' in door.Name])
+28,Get the number of doors in the Conference Room.,len([door for door in ifc_obj.by_type('IfcDoor') if 'Conference Room' in door.Name])
+29,Calculate the number of doors in the Conference Room.,len([door for door in ifc_obj.by_type('IfcDoor') if 'Conference Room' in door.Name])
+30,How many doors are there in the Reception Area?,len([door for door in ifc_obj.by_type('IfcDoor') if 'Reception Area' in door.Name])
+31,Count the number of doors in the Reception Area.,len([door for door in ifc_obj.by_type('IfcDoor') if 'Reception Area' in door.Name])
+32,What is the total number of doors in the Reception Area?,len([door for door in ifc_obj.by_type('IfcDoor') if 'Reception Area' in door.Name])
+33,Find out how many doors are in the Reception Area.,len([door for door in ifc_obj.by_type('IfcDoor') if 'Reception Area' in door.Name])
+34,Get the total count of doors in the Reception Area.,len([door for door in ifc_obj.by_type('IfcDoor') if 'Reception Area' in door.Name])
+35,How many doors are present in the Reception Area?,len([door for door in ifc_obj.by_type('IfcDoor') if 'Reception Area' in door.Name])
+36,List the number of doors in the Reception Area.,len([door for door in ifc_obj.by_type('IfcDoor') if 'Reception Area' in door.Name])
+37,Determine the number of doors in the Reception Area.,len([door for door in ifc_obj.by_type('IfcDoor') if 'Reception Area' in door.Name])
+38,What is the count of doors in the Reception Area?,len([door for door in ifc_obj.by_type('IfcDoor') if 'Reception Area' in door.Name])
+39,How many doors does the Reception Area have?,len([door for door in ifc_obj.by_type('IfcDoor') if 'Reception Area' in door.Name])
+40,Count the doors in the Reception Area.,len([door for door in ifc_obj.by_type('IfcDoor') if 'Reception Area' in door.Name])
+41,How many doors can be found in the Reception Area?,len([door for door in ifc_obj.by_type('IfcDoor') if 'Reception Area' in door.Name])
+42,Find the number of doors in the Reception Area.,len([door for door in ifc_obj.by_type('IfcDoor') if 'Reception Area' in door.Name])
+43,Get the number of doors in the Reception Area.,len([door for door in ifc_obj.by_type('IfcDoor') if 'Reception Area' in door.Name])
+44,Calculate the number of doors in the Reception Area.,len([door for door in ifc_obj.by_type('IfcDoor') if 'Reception Area' in door.Name])
+45,How many doors are there in the Kitchen?,len([door for door in ifc_obj.by_type('IfcDoor') if 'Kitchen' in door.Name])
+46,Count the number of doors in the Kitchen.,len([door for door in ifc_obj.by_type('IfcDoor') if 'Kitchen' in door.Name])
+47,What is the total number of doors in the Kitchen?,len([door for door in ifc_obj.by_type('IfcDoor') if 'Kitchen' in door.Name])
+48,Find out how many doors are in the Kitchen.,len([door for door in ifc_obj.by_type('IfcDoor') if 'Kitchen' in door.Name])
+49,Get the total count of doors in the Kitchen.,len([door for door in ifc_obj.by_type('IfcDoor') if 'Kitchen' in door.Name])
+50,How many doors are present in the Kitchen?,len([door for door in ifc_obj.by_type('IfcDoor') if 'Kitchen' in door.Name])
+51,List the number of doors in the Kitchen.,len([door for door in ifc_obj.by_type('IfcDoor') if 'Kitchen' in door.Name])
+52,Determine the number of doors in the Kitchen.,len([door for door in ifc_obj.by_type('IfcDoor') if 'Kitchen' in door.Name])
+53,What is the count of doors in the Kitchen?,len([door for door in ifc_obj.by_type('IfcDoor') if 'Kitchen' in door.Name])
+54,How many doors does the Kitchen have?,len([door for door in ifc_obj.by_type('IfcDoor') if 'Kitchen' in door.Name])
+55,Count the doors in the Kitchen.,len([door for door in ifc_obj.by_type('IfcDoor') if 'Kitchen' in door.Name])
+56,How many doors can be found in the Kitchen?,len([door for door in ifc_obj.by_type('IfcDoor') if 'Kitchen' in door.Name])
+57,Find the number of doors in the Kitchen.,len([door for door in ifc_obj.by_type('IfcDoor') if 'Kitchen' in door.Name])
+58,Get the number of doors in the Kitchen.,len([door for door in ifc_obj.by_type('IfcDoor') if 'Kitchen' in door.Name])
+59,Calculate the number of doors in the Kitchen.,len([door for door in ifc_obj.by_type('IfcDoor') if 'Kitchen' in door.Name])
+60,How many doors are there in the Bathroom?,len([door for door in ifc_obj.by_type('IfcDoor') if 'Bathroom' in door.Name])
+61,Count the number of doors in the Bathroom.,len([door for door in ifc_obj.by_type('IfcDoor') if 'Bathroom' in door.Name])
+62,What is the total number of doors in the Bathroom?,len([door for door in ifc_obj.by_type('IfcDoor') if 'Bathroom' in door.Name])
+63,Find out how many doors are in the Bathroom.,len([door for door in ifc_obj.by_type('IfcDoor') if 'Bathroom' in door.Name])
+64,Get the total count of doors in the Bathroom.,len([door for door in ifc_obj.by_type('IfcDoor') if 'Bathroom' in door.Name])
+65,How many doors are present in the Bathroom?,len([door for door in ifc_obj.by_type('IfcDoor') if 'Bathroom' in door.Name])
+66,List the number of doors in the Bathroom.,len([door for door in ifc_obj.by_type('IfcDoor') if 'Bathroom' in door.Name])
+67,Determine the number of doors in the Bathroom.,len([door for door in ifc_obj.by_type('IfcDoor') if 'Bathroom' in door.Name])
+68,What is the count of doors in the Bathroom?,len([door for door in ifc_obj.by_type('IfcDoor') if 'Bathroom' in door.Name])
+69,How many doors does the Bathroom have?,len([door for door in ifc_obj.by_type('IfcDoor') if 'Bathroom' in door.Name])
+70,Count the doors in the Bathroom.,len([door for door in ifc_obj.by_type('IfcDoor') if 'Bathroom' in door.Name])
+71,How many doors can be found in the Bathroom?,len([door for door in ifc_obj.by_type('IfcDoor') if 'Bathroom' in door.Name])
+72,Find the number of doors in the Bathroom.,len([door for door in ifc_obj.by_type('IfcDoor') if 'Bathroom' in door.Name])
+73,Get the number of doors in the Bathroom.,len([door for door in ifc_obj.by_type('IfcDoor') if 'Bathroom' in door.Name])
+74,Calculate the number of doors in the Bathroom.,len([door for door in ifc_obj.by_type('IfcDoor') if 'Bathroom' in door.Name])
+75,How many walls have a fire rating of 1 hours?,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 1])"
+76,Count the number of walls with a fire rating of 1 hours.,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 1])"
+77,What is the total number of walls with a fire rating of 1 hours?,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 1])"
+78,Find out how many walls have a fire rating of 1 hours.,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 1])"
+79,Get the total count of walls with a fire rating of 1 hours.,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 1])"
+80,How many walls are there with a fire rating of 1 hours?,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 1])"
+81,List the number of walls with a fire rating of 1 hours.,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 1])"
+82,Determine the number of walls with a fire rating of 1 hours.,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 1])"
+83,What is the count of walls with a fire rating of 1 hours?,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 1])"
+84,How many walls in the building have a fire rating of 1 hours?,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 1])"
+85,Calculate the number of walls with a fire rating of 1 hours.,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 1])"
+86,How many walls have the property of being fire-rated for 1 hours?,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 1])"
+87,Find the number of walls with a fire rating of 1 hours.,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 1])"
+88,Get the number of walls with a fire rating of 1 hours.,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 1])"
+89,Count all walls with a fire rating of 1 hours.,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 1])"
+90,How many walls have a fire rating of 2 hours?,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 2])"
+91,Count the number of walls with a fire rating of 2 hours.,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 2])"
+92,What is the total number of walls with a fire rating of 2 hours?,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 2])"
+93,Find out how many walls have a fire rating of 2 hours.,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 2])"
+94,Get the total count of walls with a fire rating of 2 hours.,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 2])"
+95,How many walls are there with a fire rating of 2 hours?,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 2])"
+96,List the number of walls with a fire rating of 2 hours.,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 2])"
+97,Determine the number of walls with a fire rating of 2 hours.,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 2])"
+98,What is the count of walls with a fire rating of 2 hours?,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 2])"
+99,How many walls in the building have a fire rating of 2 hours?,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 2])"
+100,Calculate the number of walls with a fire rating of 2 hours.,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 2])"
+101,How many walls have the property of being fire-rated for 2 hours?,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 2])"
+102,Find the number of walls with a fire rating of 2 hours.,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 2])"
+103,Get the number of walls with a fire rating of 2 hours.,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 2])"
+104,Count all walls with a fire rating of 2 hours.,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 2])"
+105,How many walls have a fire rating of 3 hours?,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 3])"
+106,Count the number of walls with a fire rating of 3 hours.,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 3])"
+107,What is the total number of walls with a fire rating of 3 hours?,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 3])"
+108,Find out how many walls have a fire rating of 3 hours.,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 3])"
+109,Get the total count of walls with a fire rating of 3 hours.,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 3])"
+110,How many walls are there with a fire rating of 3 hours?,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 3])"
+111,List the number of walls with a fire rating of 3 hours.,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 3])"
+112,Determine the number of walls with a fire rating of 3 hours.,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 3])"
+113,What is the count of walls with a fire rating of 3 hours?,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 3])"
+114,How many walls in the building have a fire rating of 3 hours?,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 3])"
+115,Calculate the number of walls with a fire rating of 3 hours.,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 3])"
+116,How many walls have the property of being fire-rated for 3 hours?,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 3])"
+117,Find the number of walls with a fire rating of 3 hours.,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 3])"
+118,Get the number of walls with a fire rating of 3 hours.,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 3])"
+119,Count all walls with a fire rating of 3 hours.,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 3])"
+120,How many walls have a fire rating of 4 hours?,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 4])"
+121,Count the number of walls with a fire rating of 4 hours.,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 4])"
+122,What is the total number of walls with a fire rating of 4 hours?,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 4])"
+123,Find out how many walls have a fire rating of 4 hours.,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 4])"
+124,Get the total count of walls with a fire rating of 4 hours.,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 4])"
+125,How many walls are there with a fire rating of 4 hours?,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 4])"
+126,List the number of walls with a fire rating of 4 hours.,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 4])"
+127,Determine the number of walls with a fire rating of 4 hours.,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 4])"
+128,What is the count of walls with a fire rating of 4 hours?,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 4])"
+129,How many walls in the building have a fire rating of 4 hours?,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 4])"
+130,Calculate the number of walls with a fire rating of 4 hours.,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 4])"
+131,How many walls have the property of being fire-rated for 4 hours?,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 4])"
+132,Find the number of walls with a fire rating of 4 hours.,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 4])"
+133,Get the number of walls with a fire rating of 4 hours.,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 4])"
+134,Count all walls with a fire rating of 4 hours.,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 4])"
+135,How many walls have a fire rating of 5 hours?,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 5])"
+136,Count the number of walls with a fire rating of 5 hours.,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 5])"
+137,What is the total number of walls with a fire rating of 5 hours?,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 5])"
+138,Find out how many walls have a fire rating of 5 hours.,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 5])"
+139,Get the total count of walls with a fire rating of 5 hours.,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 5])"
+140,How many walls are there with a fire rating of 5 hours?,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 5])"
+141,List the number of walls with a fire rating of 5 hours.,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 5])"
+142,Determine the number of walls with a fire rating of 5 hours.,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 5])"
+143,What is the count of walls with a fire rating of 5 hours?,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 5])"
+144,How many walls in the building have a fire rating of 5 hours?,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 5])"
+145,Calculate the number of walls with a fire rating of 5 hours.,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 5])"
+146,How many walls have the property of being fire-rated for 5 hours?,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 5])"
+147,Find the number of walls with a fire rating of 5 hours.,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 5])"
+148,Get the number of walls with a fire rating of 5 hours.,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 5])"
+149,Count all walls with a fire rating of 5 hours.,"len([wall for wall in ifc_obj.by_type('IfcWall') if hasattr(wall, 'FireRating') and wall.FireRating == 5])"
+225,How many doors have accesscontrol properties defined?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AccessControl')])"
+226,Count the number of doors with accesscontrol properties.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AccessControl')])"
+227,What is the total number of doors with accesscontrol properties?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AccessControl')])"
+228,Find out how many doors have accesscontrol properties.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AccessControl')])"
+229,Get the total count of doors with accesscontrol properties.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AccessControl')])"
+230,How many doors are there with accesscontrol properties?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AccessControl')])"
+231,List the number of doors with accesscontrol properties.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AccessControl')])"
+232,Determine the number of doors with accesscontrol properties.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AccessControl')])"
+233,What is the count of doors with accesscontrol properties?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AccessControl')])"
+234,How many doors in the building have accesscontrol properties?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AccessControl')])"
+235,Calculate the number of doors with accesscontrol properties.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AccessControl')])"
+236,How many doors have defined accesscontrol properties?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AccessControl')])"
+237,Find the number of doors with accesscontrol properties.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AccessControl')])"
+238,Get the number of doors with accesscontrol properties.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AccessControl')])"
+239,Count all doors with accesscontrol properties.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AccessControl')])"
+240,How many doors have firerating properties defined?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'FireRating')])"
+241,Count the number of doors with firerating properties.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'FireRating')])"
+242,What is the total number of doors with firerating properties?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'FireRating')])"
+243,Find out how many doors have firerating properties.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'FireRating')])"
+244,Get the total count of doors with firerating properties.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'FireRating')])"
+245,How many doors are there with firerating properties?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'FireRating')])"
+246,List the number of doors with firerating properties.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'FireRating')])"
+247,Determine the number of doors with firerating properties.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'FireRating')])"
+248,What is the count of doors with firerating properties?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'FireRating')])"
+249,How many doors in the building have firerating properties?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'FireRating')])"
+250,Calculate the number of doors with firerating properties.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'FireRating')])"
+251,How many doors have defined firerating properties?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'FireRating')])"
+252,Find the number of doors with firerating properties.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'FireRating')])"
+253,Get the number of doors with firerating properties.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'FireRating')])"
+254,Count all doors with firerating properties.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'FireRating')])"
+255,How many doors have acousticinsulation properties defined?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AcousticInsulation')])"
+256,Count the number of doors with acousticinsulation properties.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AcousticInsulation')])"
+257,What is the total number of doors with acousticinsulation properties?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AcousticInsulation')])"
+258,Find out how many doors have acousticinsulation properties.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AcousticInsulation')])"
+259,Get the total count of doors with acousticinsulation properties.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AcousticInsulation')])"
+260,How many doors are there with acousticinsulation properties?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AcousticInsulation')])"
+261,List the number of doors with acousticinsulation properties.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AcousticInsulation')])"
+262,Determine the number of doors with acousticinsulation properties.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AcousticInsulation')])"
+263,What is the count of doors with acousticinsulation properties?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AcousticInsulation')])"
+264,How many doors in the building have acousticinsulation properties?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AcousticInsulation')])"
+265,Calculate the number of doors with acousticinsulation properties.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AcousticInsulation')])"
+266,How many doors have defined acousticinsulation properties?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AcousticInsulation')])"
+267,Find the number of doors with acousticinsulation properties.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AcousticInsulation')])"
+268,Get the number of doors with acousticinsulation properties.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AcousticInsulation')])"
+269,Count all doors with acousticinsulation properties.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AcousticInsulation')])"
+270,How many doors have thermalinsulation properties defined?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'ThermalInsulation')])"
+271,Count the number of doors with thermalinsulation properties.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'ThermalInsulation')])"
+272,What is the total number of doors with thermalinsulation properties?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'ThermalInsulation')])"
+273,Find out how many doors have thermalinsulation properties.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'ThermalInsulation')])"
+274,Get the total count of doors with thermalinsulation properties.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'ThermalInsulation')])"
+275,How many doors are there with thermalinsulation properties?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'ThermalInsulation')])"
+276,List the number of doors with thermalinsulation properties.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'ThermalInsulation')])"
+277,Determine the number of doors with thermalinsulation properties.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'ThermalInsulation')])"
+278,What is the count of doors with thermalinsulation properties?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'ThermalInsulation')])"
+279,How many doors in the building have thermalinsulation properties?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'ThermalInsulation')])"
+280,Calculate the number of doors with thermalinsulation properties.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'ThermalInsulation')])"
+281,How many doors have defined thermalinsulation properties?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'ThermalInsulation')])"
+282,Find the number of doors with thermalinsulation properties.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'ThermalInsulation')])"
+283,Get the number of doors with thermalinsulation properties.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'ThermalInsulation')])"
+284,Count all doors with thermalinsulation properties.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'ThermalInsulation')])"
+285,How many doors have seismicrating properties defined?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'SeismicRating')])"
+286,Count the number of doors with seismicrating properties.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'SeismicRating')])"
+287,What is the total number of doors with seismicrating properties?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'SeismicRating')])"
+288,Find out how many doors have seismicrating properties.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'SeismicRating')])"
+289,Get the total count of doors with seismicrating properties.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'SeismicRating')])"
+290,How many doors are there with seismicrating properties?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'SeismicRating')])"
+291,List the number of doors with seismicrating properties.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'SeismicRating')])"
+292,Determine the number of doors with seismicrating properties.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'SeismicRating')])"
+293,What is the count of doors with seismicrating properties?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'SeismicRating')])"
+294,How many doors in the building have seismicrating properties?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'SeismicRating')])"
+295,Calculate the number of doors with seismicrating properties.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'SeismicRating')])"
+296,How many doors have defined seismicrating properties?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'SeismicRating')])"
+297,Find the number of doors with seismicrating properties.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'SeismicRating')])"
+298,Get the number of doors with seismicrating properties.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'SeismicRating')])"
+299,Count all doors with seismicrating properties.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'SeismicRating')])"
+300,How many windows have uvprotection properties defined?,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'UVProtection')])"
+301,Count the number of windows with uvprotection properties.,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'UVProtection')])"
+302,What is the total number of windows with uvprotection properties?,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'UVProtection')])"
+303,Find out how many windows have uvprotection properties.,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'UVProtection')])"
+304,Get the total count of windows with uvprotection properties.,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'UVProtection')])"
+305,How many windows are there with uvprotection properties?,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'UVProtection')])"
+306,List the number of windows with uvprotection properties.,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'UVProtection')])"
+307,Determine the number of windows with uvprotection properties.,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'UVProtection')])"
+308,What is the count of windows with uvprotection properties?,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'UVProtection')])"
+309,How many windows in the building have uvprotection properties?,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'UVProtection')])"
+310,Calculate the number of windows with uvprotection properties.,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'UVProtection')])"
+311,How many windows have defined uvprotection properties?,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'UVProtection')])"
+312,Find the number of windows with uvprotection properties.,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'UVProtection')])"
+313,Get the number of windows with uvprotection properties.,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'UVProtection')])"
+314,Count all windows with uvprotection properties.,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'UVProtection')])"
+315,How many windows have tinted properties defined?,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'Tinted')])"
+316,Count the number of windows with tinted properties.,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'Tinted')])"
+317,What is the total number of windows with tinted properties?,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'Tinted')])"
+318,Find out how many windows have tinted properties.,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'Tinted')])"
+319,Get the total count of windows with tinted properties.,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'Tinted')])"
+320,How many windows are there with tinted properties?,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'Tinted')])"
+321,List the number of windows with tinted properties.,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'Tinted')])"
+322,Determine the number of windows with tinted properties.,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'Tinted')])"
+323,What is the count of windows with tinted properties?,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'Tinted')])"
+324,How many windows in the building have tinted properties?,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'Tinted')])"
+325,Calculate the number of windows with tinted properties.,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'Tinted')])"
+326,How many windows have defined tinted properties?,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'Tinted')])"
+327,Find the number of windows with tinted properties.,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'Tinted')])"
+328,Get the number of windows with tinted properties.,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'Tinted')])"
+329,Count all windows with tinted properties.,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'Tinted')])"
+330,How many windows have laminated properties defined?,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'Laminated')])"
+331,Count the number of windows with laminated properties.,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'Laminated')])"
+332,What is the total number of windows with laminated properties?,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'Laminated')])"
+333,Find out how many windows have laminated properties.,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'Laminated')])"
+334,Get the total count of windows with laminated properties.,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'Laminated')])"
+335,How many windows are there with laminated properties?,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'Laminated')])"
+336,List the number of windows with laminated properties.,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'Laminated')])"
+337,Determine the number of windows with laminated properties.,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'Laminated')])"
+338,What is the count of windows with laminated properties?,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'Laminated')])"
+339,How many windows in the building have laminated properties?,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'Laminated')])"
+340,Calculate the number of windows with laminated properties.,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'Laminated')])"
+341,How many windows have defined laminated properties?,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'Laminated')])"
+342,Find the number of windows with laminated properties.,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'Laminated')])"
+343,Get the number of windows with laminated properties.,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'Laminated')])"
+344,Count all windows with laminated properties.,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'Laminated')])"
+345,How many windows have insulated properties defined?,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'Insulated')])"
+346,Count the number of windows with insulated properties.,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'Insulated')])"
+347,What is the total number of windows with insulated properties?,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'Insulated')])"
+348,Find out how many windows have insulated properties.,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'Insulated')])"
+349,Get the total count of windows with insulated properties.,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'Insulated')])"
+350,How many windows are there with insulated properties?,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'Insulated')])"
+351,List the number of windows with insulated properties.,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'Insulated')])"
+352,Determine the number of windows with insulated properties.,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'Insulated')])"
+353,What is the count of windows with insulated properties?,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'Insulated')])"
+354,How many windows in the building have insulated properties?,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'Insulated')])"
+355,Calculate the number of windows with insulated properties.,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'Insulated')])"
+356,How many windows have defined insulated properties?,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'Insulated')])"
+357,Find the number of windows with insulated properties.,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'Insulated')])"
+358,Get the number of windows with insulated properties.,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'Insulated')])"
+359,Count all windows with insulated properties.,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'Insulated')])"
+360,How many windows have doubleglazed properties defined?,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'DoubleGlazed')])"
+361,Count the number of windows with doubleglazed properties.,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'DoubleGlazed')])"
+362,What is the total number of windows with doubleglazed properties?,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'DoubleGlazed')])"
+363,Find out how many windows have doubleglazed properties.,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'DoubleGlazed')])"
+364,Get the total count of windows with doubleglazed properties.,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'DoubleGlazed')])"
+365,How many windows are there with doubleglazed properties?,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'DoubleGlazed')])"
+366,List the number of windows with doubleglazed properties.,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'DoubleGlazed')])"
+367,Determine the number of windows with doubleglazed properties.,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'DoubleGlazed')])"
+368,What is the count of windows with doubleglazed properties?,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'DoubleGlazed')])"
+369,How many windows in the building have doubleglazed properties?,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'DoubleGlazed')])"
+370,Calculate the number of windows with doubleglazed properties.,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'DoubleGlazed')])"
+371,How many windows have defined doubleglazed properties?,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'DoubleGlazed')])"
+372,Find the number of windows with doubleglazed properties.,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'DoubleGlazed')])"
+373,Get the number of windows with doubleglazed properties.,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'DoubleGlazed')])"
+374,Count all windows with doubleglazed properties.,"len([window for window in ifc_obj.by_type('IfcWindow') if hasattr(window, 'DoubleGlazed')])"
+536,Select all the windows.,ifc_obj.by_type('IfcWindow')
+537,Get all windows from the model.,ifc_obj.by_type('IfcWindow')
+538,Find all windows in the building.,ifc_obj.by_type('IfcWindow')
+539,List all windows.,ifc_obj.by_type('IfcWindow')
+540,Retrieve all windows from the file.,ifc_obj.by_type('IfcWindow')
+541,Show all windows present in the building.,ifc_obj.by_type('IfcWindow')
+542,Select all the doors.,ifc_obj.by_type('IfcDoor')
+543,Get all doors from the model.,ifc_obj.by_type('IfcDoor')
+544,Find all doors in the building.,ifc_obj.by_type('IfcDoor')
+545,List all doors.,ifc_obj.by_type('IfcDoor')
+546,Retrieve all doors from the file.,ifc_obj.by_type('IfcDoor')
+547,Show all doors present in the building.,ifc_obj.by_type('IfcDoor')
+548,Select all the columns.,ifc_obj.by_type('IfcColumn')
+549,Get all columns from the model.,ifc_obj.by_type('IfcColumn')
+550,Find all columns in the building.,ifc_obj.by_type('IfcColumn')
+551,List all columns.,ifc_obj.by_type('IfcColumn')
+552,Retrieve all columns from the file.,ifc_obj.by_type('IfcColumn')
+553,Show all columns present in the building.,ifc_obj.by_type('IfcColumn')
+554,Select all the beams.,ifc_obj.by_type('IfcBeam')
+555,Get all beams from the model.,ifc_obj.by_type('IfcBeam')
+556,Find all beams in the building.,ifc_obj.by_type('IfcBeam')
+557,List all beams.,ifc_obj.by_type('IfcBeam')
+558,Retrieve all beams from the file.,ifc_obj.by_type('IfcBeam')
+559,Show all beams present in the building.,ifc_obj.by_type('IfcBeam')
+560,Select all the walls.,ifc_obj.by_type('IfcWall')
+561,Get all walls from the model.,ifc_obj.by_type('IfcWall')
+562,Find all walls in the building.,ifc_obj.by_type('IfcWall')
+563,List all walls.,ifc_obj.by_type('IfcWall')
+564,Retrieve all walls from the file.,ifc_obj.by_type('IfcWall')
+565,Show all walls present in the building.,ifc_obj.by_type('IfcWall')
+566,Select all the spaces.,ifc_obj.by_type('IfcSpace')
+567,Get all spaces from the model.,ifc_obj.by_type('IfcSpace')
+568,Find all spaces in the building.,ifc_obj.by_type('IfcSpace')
+569,List all spaces.,ifc_obj.by_type('IfcSpace')
+570,Retrieve all spaces from the file.,ifc_obj.by_type('IfcSpace')
+571,Show all spaces present in the building.,ifc_obj.by_type('IfcSpace')
+620,Select all the windows.,ifc_obj.by_type('IfcWindow')
+621,Get all the windows.,ifc_obj.by_type('IfcWindow')
+622,Select the windows.,ifc_obj.by_type('IfcWindow')
+623,Select windows.,ifc_obj.by_type('IfcWindow')
+624,Give me all the windows.,ifc_obj.by_type('IfcWindow')
+625,Give the windows.,ifc_obj.by_type('IfcWindow')
+626,Take all the windows.,ifc_obj.by_type('IfcWindow')
+627,Show me all the windows.,ifc_obj.by_type('IfcWindow')
+608,Select all elements which have with fire rating.,"[element for element in ifc_obj.by_type('IfcElement') if hasattr(element, 'FireRating')]"
+609,Get all elements with with fire rating.,"[element for element in ifc_obj.by_type('IfcElement') if hasattr(element, 'FireRating')]"
+610,Find all elements that have with fire rating.,"[element for element in ifc_obj.by_type('IfcElement') if hasattr(element, 'FireRating')]"
+611,List all elements with with fire rating.,"[element for element in ifc_obj.by_type('IfcElement') if hasattr(element, 'FireRating')]"
+612,Retrieve all elements having with fire rating.,"[element for element in ifc_obj.by_type('IfcElement') if hasattr(element, 'FireRating')]"
+613,Show all elements with with fire rating.,"[element for element in ifc_obj.by_type('IfcElement') if hasattr(element, 'FireRating')]"
+614,Select all elements which have with thermal insulation.,"[element for element in ifc_obj.by_type('IfcElement') if hasattr(element, 'ThermalInsulation')]"
+615,Get all elements with with thermal insulation.,"[element for element in ifc_obj.by_type('IfcElement') if hasattr(element, 'ThermalInsulation')]"
+616,Find all elements that have with thermal insulation.,"[element for element in ifc_obj.by_type('IfcElement') if hasattr(element, 'ThermalInsulation')]"
+617,List all elements with with thermal insulation.,"[element for element in ifc_obj.by_type('IfcElement') if hasattr(element, 'ThermalInsulation')]"
+618,Retrieve all elements having with thermal insulation.,"[element for element in ifc_obj.by_type('IfcElement') if hasattr(element, 'ThermalInsulation')]"
+619,Show all elements with with thermal insulation.,"[element for element in ifc_obj.by_type('IfcElement') if hasattr(element, 'ThermalInsulation')]"
+636,How many doors have accesscontrol?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AccessControl')])"
+637,Count the number of doors with accesscontrol.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AccessControl')])"
+638,What is the total number of doors with accesscontrol?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AccessControl')])"
+639,Find out how many doors have accesscontrol.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AccessControl')])"
+640,Get the total count of doors with accesscontrol.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AccessControl')])"
+641,How many doors are there with accesscontrol?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AccessControl')])"
+642,List the number of doors with accesscontrol.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AccessControl')])"
+643,Determine the number of doors with accesscontrol.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AccessControl')])"
+644,What is the count of doors with accesscontrol?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AccessControl')])"
+645,How many doors in the building have accesscontrol?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AccessControl')])"
+646,Calculate the number of doors with accesscontrol.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AccessControl')])"
+647,How many doors have defined accesscontrol?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AccessControl')])"
+648,Find the number of doors with accesscontrol.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AccessControl')])"
+649,Get the number of doors with accesscontrol.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AccessControl')])"
+650,Count all doors with accesscontrol.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AccessControl')])"
+651,How many doors have firerating?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'FireRating')])"
+652,Count the number of doors with firerating.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'FireRating')])"
+653,What is the total number of doors with firerating?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'FireRating')])"
+654,Find out how many doors have firerating.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'FireRating')])"
+655,Get the total count of doors with firerating.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'FireRating')])"
+656,How many doors are there with firerating?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'FireRating')])"
+657,List the number of doors with firerating.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'FireRating')])"
+658,Determine the number of doors with firerating.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'FireRating')])"
+659,What is the count of doors with firerating?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'FireRating')])"
+660,How many doors in the building have firerating?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'FireRating')])"
+661,Calculate the number of doors with firerating.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'FireRating')])"
+662,How many doors have defined firerating?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'FireRating')])"
+663,Find the number of doors with firerating.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'FireRating')])"
+664,Get the number of doors with firerating.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'FireRating')])"
+665,Count all doors with firerating.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'FireRating')])"
+666,How many doors have acousticinsulation?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AcousticInsulation')])"
+667,Count the number of doors with acousticinsulation.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AcousticInsulation')])"
+668,What is the total number of doors with acousticinsulation?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AcousticInsulation')])"
+669,Find out how many doors have acousticinsulation.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AcousticInsulation')])"
+670,Get the total count of doors with acousticinsulation.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AcousticInsulation')])"
+671,How many doors are there with acousticinsulation?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AcousticInsulation')])"
+672,List the number of doors with acousticinsulation.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AcousticInsulation')])"
+673,Determine the number of doors with acousticinsulation.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AcousticInsulation')])"
+674,What is the count of doors with acousticinsulation?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AcousticInsulation')])"
+675,How many doors in the building have acousticinsulation?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AcousticInsulation')])"
+676,Calculate the number of doors with acousticinsulation.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AcousticInsulation')])"
+677,How many doors have defined acousticinsulation?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AcousticInsulation')])"
+678,Find the number of doors with acousticinsulation.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AcousticInsulation')])"
+679,Get the number of doors with acousticinsulation.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AcousticInsulation')])"
+680,Count all doors with acousticinsulation.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AcousticInsulation')])"
+681,How many doors have thermalinsulation?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'ThermalInsulation')])"
+682,Count the number of doors with thermalinsulation.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'ThermalInsulation')])"
+683,What is the total number of doors with thermalinsulation?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'ThermalInsulation')])"
+684,Find out how many doors have thermalinsulation.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'ThermalInsulation')])"
+685,Get the total count of doors with thermalinsulation.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'ThermalInsulation')])"
+686,How many doors are there with thermalinsulation?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'ThermalInsulation')])"
+687,List the number of doors with thermalinsulation.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'ThermalInsulation')])"
+688,Determine the number of doors with thermalinsulation.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'ThermalInsulation')])"
+689,What is the count of doors with thermalinsulation?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'ThermalInsulation')])"
+690,How many doors in the building have thermalinsulation?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'ThermalInsulation')])"
+691,Calculate the number of doors with thermalinsulation.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'ThermalInsulation')])"
+692,How many doors have defined thermalinsulation?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'ThermalInsulation')])"
+693,Find the number of doors with thermalinsulation.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'ThermalInsulation')])"
+694,Get the number of doors with thermalinsulation.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'ThermalInsulation')])"
+695,Count all doors with thermalinsulation.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'ThermalInsulation')])"
+696,How many doors have seismicrating?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'SeismicRating')])"
+697,Count the number of doors with seismicrating.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'SeismicRating')])"
+698,What is the total number of doors with seismicrating?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'SeismicRating')])"
+699,Find out how many doors have seismicrating.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'SeismicRating')])"
+700,Get the total count of doors with seismicrating.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'SeismicRating')])"
+701,How many doors are there with seismicrating?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'SeismicRating')])"
+702,List the number of doors with seismicrating.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'SeismicRating')])"
+703,Determine the number of doors with seismicrating.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'SeismicRating')])"
+704,What is the count of doors with seismicrating?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'SeismicRating')])"
+705,How many doors in the building have seismicrating?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'SeismicRating')])"
+706,Calculate the number of doors with seismicrating.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'SeismicRating')])"
+707,How many doors have defined seismicrating?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'SeismicRating')])"
+708,Find the number of doors with seismicrating.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'SeismicRating')])"
+709,Get the number of doors with seismicrating.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'SeismicRating')])"
+710,Count all doors with seismicrating.,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'SeismicRating')])"
+786,What is the total surface area of all windows?,sum([calculate_element_area(window) for window in ifc_obj.by_type('IfcWindow')])
+787,Calculate the total surface area of all windows.,sum([calculate_element_area(window) for window in ifc_obj.by_type('IfcWindow')])
+788,Find out the total surface area of all windows.,sum([calculate_element_area(window) for window in ifc_obj.by_type('IfcWindow')])
+789,Get the total surface area of all windows.,sum([calculate_element_area(window) for window in ifc_obj.by_type('IfcWindow')])
+790,How much is the combined surface area of all windows?,sum([calculate_element_area(window) for window in ifc_obj.by_type('IfcWindow')])
+791,What is the total surface area of all windows in the building?,sum([calculate_element_area(window) for window in ifc_obj.by_type('IfcWindow')])
+792,Determine the total surface area of all windows.,sum([calculate_element_area(window) for window in ifc_obj.by_type('IfcWindow')])
+793,How much surface area do all windows cover?,sum([calculate_element_area(window) for window in ifc_obj.by_type('IfcWindow')])
+794,List the total surface area of all windows.,sum([calculate_element_area(window) for window in ifc_obj.by_type('IfcWindow')])
+795,Sum up the total surface area of all windows.,sum([calculate_element_area(window) for window in ifc_obj.by_type('IfcWindow')])
+796,What is the aggregate surface area of all windows?,sum([calculate_element_area(window) for window in ifc_obj.by_type('IfcWindow')])
+797,Calculate the total surface area of all windows in the building.,sum([calculate_element_area(window) for window in ifc_obj.by_type('IfcWindow')])
+798,Find the combined surface area of all windows.,sum([calculate_element_area(window) for window in ifc_obj.by_type('IfcWindow')])
+799,What is the overall surface area of all windows?,sum([calculate_element_area(window) for window in ifc_obj.by_type('IfcWindow')])
+800,Get the combined surface area of all windows.,sum([calculate_element_area(window) for window in ifc_obj.by_type('IfcWindow')])
+801,What is the total surface area of all doors?,sum([calculate_element_area(door) for door in ifc_obj.by_type('IfcDoor')])
+802,Calculate the total surface area of all doors.,sum([calculate_element_area(door) for door in ifc_obj.by_type('IfcDoor')])
+803,Find out the total surface area of all doors.,sum([calculate_element_area(door) for door in ifc_obj.by_type('IfcDoor')])
+804,Get the total surface area of all doors.,sum([calculate_element_area(door) for door in ifc_obj.by_type('IfcDoor')])
+805,How much is the combined surface area of all doors?,sum([calculate_element_area(door) for door in ifc_obj.by_type('IfcDoor')])
+806,What is the total surface area of all doors in the building?,sum([calculate_element_area(door) for door in ifc_obj.by_type('IfcDoor')])
+807,Determine the total surface area of all doors.,sum([calculate_element_area(door) for door in ifc_obj.by_type('IfcDoor')])
+808,How much surface area do all doors cover?,sum([calculate_element_area(door) for door in ifc_obj.by_type('IfcDoor')])
+809,List the total surface area of all doors.,sum([calculate_element_area(door) for door in ifc_obj.by_type('IfcDoor')])
+810,Sum up the total surface area of all doors.,sum([calculate_element_area(door) for door in ifc_obj.by_type('IfcDoor')])
+811,What is the aggregate surface area of all doors?,sum([calculate_element_area(door) for door in ifc_obj.by_type('IfcDoor')])
+812,Calculate the total surface area of all doors in the building.,sum([calculate_element_area(door) for door in ifc_obj.by_type('IfcDoor')])
+813,Find the combined surface area of all doors.,sum([calculate_element_area(door) for door in ifc_obj.by_type('IfcDoor')])
+814,What is the overall surface area of all doors?,sum([calculate_element_area(door) for door in ifc_obj.by_type('IfcDoor')])
+815,Get the combined surface area of all doors.,sum([calculate_element_area(door) for door in ifc_obj.by_type('IfcDoor')])
+1101,How many doors have automaticopener?,"len([door for door in ifc_obj.by_type('IfcDoor') if hasattr(door, 'AutomaticOpener') and door.AutomaticOpener])"
+9301,"Select all walls with an area greater than 299 square meters.",[wall for wall in ifc_obj.by_type('IfcWall') if calculate_element_area(wall) > 299]
+9302,"Find walls where the area is less than 150 square meters.",[wall for wall in ifc_obj.by_type('IfcWall') if calculate_element_area(wall) < 150]
+9303,"List all walls with an area exceeding 500 square feet.",[wall for wall in ifc_obj.by_type('IfcWall') if calculate_element_area(wall) > 46.45] # 500 square feet to square meters
+9304,"Show me the walls with an area smaller than 250 square feet.",[wall for wall in ifc_obj.by_type('IfcWall') if calculate_element_area(wall) < 23.23] # 250 square feet to square meters
+9305,"Get all walls that have an area more than 100 square meters.",[wall for wall in ifc_obj.by_type('IfcWall') if calculate_element_area(wall) > 100]
+9306,"Select all walls with a volume greater than 50 cubic meters.",[wall for wall in ifc_obj.by_type('IfcWall') if calculate_element_volume(wall) > 50]
+9307,"Find walls where the volume is less than 30 cubic meters.",[wall for wall in ifc_obj.by_type('IfcWall') if calculate_element_volume(wall) < 30]
+9308,"List all walls with a volume exceeding 75 cubic feet.",[wall for wall in ifc_obj.by_type('IfcWall') if calculate_element_volume(wall) > 2.12] # 75 cubic feet to cubic meters
+9309,"Show me the walls with a volume smaller than 20 cubic feet.",[wall for wall in ifc_obj.by_type('IfcWall') if calculate_element_volume(wall) < 0.57] # 20 cubic feet to cubic meters
+9310,"Get all walls that have a volume more than 40 cubic meters.",[wall for wall in ifc_obj.by_type('IfcWall') if calculate_element_volume(wall) > 40]
+9311,"Select all walls with a length greater than 10 meters.",[wall for wall in ifc_obj.by_type('IfcWall') if calculate_element_length(wall) > 10]
+9312,"Find walls where the length is less than 5 meters.",[wall for wall in ifc_obj.by_type('IfcWall') if calculate_element_length(wall) < 5]
+9313,"List all walls with a length exceeding 12 meters.",[wall for wall in ifc_obj.by_type('IfcWall') if calculate_element_length(wall) > 12]
+9314,"Show me the walls with a length smaller than 4 meters.",[wall for wall in ifc_obj.by_type('IfcWall') if calculate_element_length(wall) < 4]
+9315,"Get all walls that have a length more than 8 meters.",[wall for wall in ifc_obj.by_type('IfcWall') if calculate_element_length(wall) > 8]
+9316,"Select all walls with a width greater than 0.5 meters.",[wall for wall in ifc_obj.by_type('IfcWall') if calculate_element_width(wall) > 0.5]
+9317,"Find walls where the width is less than 0.3 meters.",[wall for wall in ifc_obj.by_type('IfcWall') if calculate_element_width(wall) < 0.3]
+9318,"List all walls with a width exceeding 0.7 meters.",[wall for wall in ifc_obj.by_type('IfcWall') if calculate_element_width(wall) > 0.7]
+9319,"Show me the walls with a width smaller than 0.2 meters.",[wall for wall in ifc_obj.by_type('IfcWall') if calculate_element_width(wall) < 0.2]
+9320,"Get all walls that have a width more than 0.6 meters.",[wall for wall in ifc_obj.by_type('IfcWall') if calculate_element_width(wall) > 0.6]
+9321,"Select all walls with a thickness greater than 0.3 meters.",[wall for wall in ifc_obj.by_type('IfcWall') if calculate_element_thickness(wall) > 0.3]
+9322,"Find walls where the thickness is less than 0.2 meters.",[wall for wall in ifc_obj.by_type('IfcWall') if calculate_element_thickness(wall) < 0.2]
+9323,"List all walls with a thickness exceeding 0.4 meters.",[wall for wall in ifc_obj.by_type('IfcWall') if calculate_element_thickness(wall) > 0.4]
+9324,"Show me the walls with a thickness smaller than 0.1 meters.",[wall for wall in ifc_obj.by_type('IfcWall') if calculate_element_thickness(wall) < 0.1]
+9325,"Get all walls that have a thickness more than 0.5 meters.",[wall for wall in ifc_obj.by_type('IfcWall') if calculate_element_thickness(wall) > 0.5]
+9326,"Select all columns with a volume greater than 30 cubic meters.",[column for column in ifc_obj.by_type('IfcColumn') if calculate_element_volume(column) > 30]
+9327,"Find beams where the volume is less than 15 cubic meters.",[beam for beam in ifc_obj.by_type('IfcBeam') if calculate_element_volume(beam) < 15]
+9328,"List all doors with a volume exceeding 0.5 cubic meters.",[door for door in ifc_obj.by_type('IfcDoor') if calculate_element_volume(door) > 0.5]
+9329,"Show me the columns with a volume smaller than 20 cubic meters.",[column for column in ifc_obj.by_type('IfcColumn') if calculate_element_volume(column) < 20]
+9330,"Get all slabs that have a volume more than 50 cubic meters.",[slab for slab in ifc_obj.by_type('IfcSlab') if calculate_element_volume(slab) > 50]
+9331,"Select all beams with a length greater than 15 meters.",[beam for beam in ifc_obj.by_type('IfcBeam') if calculate_element_length(beam) > 15]
+9332,"Find doors where the height is less than 2 meters.",[door for door in ifc_obj.by_type('IfcDoor') if calculate_element_height(door) < 2]
+9333,"List all columns with a height exceeding 6 meters.",[column for column in ifc_obj.by_type('IfcColumn') if calculate_element_height(column) > 6]
+9334,"Show me the windows with a length smaller than 1.5 meters.",[window for window in ifc_obj.by_type('IfcWindow') if calculate_element_length(window) < 1.5]
+9335,"Get all slabs that have a length more than 10 meters.",[slab for slab in ifc_obj.by_type('IfcSlab') if calculate_element_length(slab) > 10]
+9336,"Select all beams with a width greater than 0.5 meters.",[beam for beam in ifc_obj.by_type('IfcBeam') if calculate_element_width(beam) > 0.5]
+9337,"Find slabs where the width is less than 0.3 meters.",[slab for slab in ifc_obj.by_type('IfcSlab') if calculate_element_width(slab) < 0.3]
+9338,"List all windows with a width exceeding 2 meters.",[window for window in ifc_obj.by_type('IfcWindow') if calculate_element_width(window) > 2]
+9339,"Show me the doors with a width smaller than 0.9 meters.",[door for door in ifc_obj.by_type('IfcDoor') if calculate_element_width(door) < 0.9]
+9340,"Get all columns that have a width more than 0.4 meters.",[column for column in ifc_obj.by_type('IfcColumn') if calculate_element_width(column) > 0.4]
+9341,"Select all doors with a height greater than 2.5 meters.",[door for door in ifc_obj.by_type('IfcDoor') if calculate_element_height(door) > 2.5]
+9342,"Find windows where the height is less than 1 meter.",[window for window in ifc_obj.by_type('IfcWindow') if calculate_element_height(window) < 1]
+9343,"List all columns with a height exceeding 10 meters.",[column for column in ifc_obj.by_type('IfcColumn') if calculate_element_height(column) > 10]
+9344,"Show me the beams with a height smaller than 0.6 meters.",[beam for beam in ifc_obj.by_type('IfcBeam') if calculate_element_height(beam) < 0.6]
+9345,"Get all slabs that have a height more than 0.2 meters.",[slab for slab in ifc_obj.by_type('IfcSlab') if calculate_element_height(slab) > 0.2]
+9346,"Find all walls with an area exceeding 100 square meters.","[wall for wall in ifc_obj.by_type('IfcWall') if calculate_element_area(wall) > 100]"
+9347,"List the walls where the area is more than 50 square meters.","[wall for wall in ifc_obj.by_type('IfcWall') if calculate_element_area(wall) > 50]"
+9348,"Select walls with areas greater than 150 square meters.","[wall for wall in ifc_obj.by_type('IfcWall') if calculate_element_area(wall) > 150]"
+9349,"Retrieve all walls that have an area larger than 300 square meters.","[wall for wall in ifc_obj.by_type('IfcWall') if calculate_element_area(wall) > 300]"
+9350,"Show me the walls with an area above 500 square meters.","[wall for wall in ifc_obj.by_type('IfcWall') if calculate_element_area(wall) > 500]"
+9351,"Identify walls that have areas exceeding 299 square meters.","[wall for wall in ifc_obj.by_type('IfcWall') if calculate_element_area(wall) > 299]"
+9352,"Get all walls with area over 299 square meters.","[wall for wall in ifc_obj.by_type('IfcWall') if calculate_element_area(wall) > 299]"
+9353,"Fetch walls with an area greater than 299 square meters.","[wall for wall in ifc_obj.by_type('IfcWall') if calculate_element_area(wall) > 299]"
+9354,"Which walls have an area bigger than 299 square meters?","[wall for wall in ifc_obj.by_type('IfcWall') if calculate_element_area(wall) > 299]"
+9355,"Select walls where the area is greater than 299 sqm.","[wall for wall in ifc_obj.by_type('IfcWall') if calculate_element_area(wall) > 299]"
+9356,"Find walls with area larger than 299 sqm.","[wall for wall in ifc_obj.by_type('IfcWall') if calculate_element_area(wall) > 299]"
+9357,"Show all walls with area above 299 sqm.","[wall for wall in ifc_obj.by_type('IfcWall') if calculate_element_area(wall) > 299]"
+9358,"Identify walls with an area exceeding 299 sqm.","[wall for wall in ifc_obj.by_type('IfcWall') if calculate_element_area(wall) > 299]"
+9359,"Retrieve walls with an area over 299 sqm.","[wall for wall in ifc_obj.by_type('IfcWall') if calculate_element_area(wall) > 299]"
+9360,"Select all walls with areas that are more than 299 square meters.","[wall for wall in ifc_obj.by_type('IfcWall') if calculate_element_area(wall) > 299]"
+9361,"List all walls where the area surpasses 299 square meters.","[wall for wall in ifc_obj.by_type('IfcWall') if calculate_element_area(wall) > 299]"
+9362,"Fetch all walls with an area that exceeds 299 square meters.","[wall for wall in ifc_obj.by_type('IfcWall') if calculate_element_area(wall) > 299]"
+9363,"Which walls have an area more than 299 square meters?","[wall for wall in ifc_obj.by_type('IfcWall') if calculate_element_area(wall) > 299]"
+9364,"Find walls with areas greater than 299 sqm.","[wall for wall in ifc_obj.by_type('IfcWall') if calculate_element_area(wall) > 299]"
+9365,"Get the walls with an area that is greater than 299 sqm.","[wall for wall in ifc_obj.by_type('IfcWall') if calculate_element_area(wall) > 299]"
+9400,"Select all the windows from the 1st and 2nd floors.","[window for window in get_elements_by_floors_and_types(ifc_obj, ['IfcWindow'], [0, 1])]"
+9401,"Select the doors from the 1st floor.","[door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [0])]"
+9402,"Select the walls from the 2nd floor.","[wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [1])]"
+9403,"Select the beams from the 4th floor.","[beam for beam in get_elements_by_floors_and_types(ifc_obj, ['IfcBeam'], [3])]"
+9404,"Select the doors from the 1st floor with height greater than 1.8 meters.","[door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [0]) if calculate_element_height(door) > 1.8]"
+9405,"Select the windows from the 2nd floor.","[window for window in get_elements_by_floors_and_types(ifc_obj, ['IfcWindow'], [1])]"
+9406,"Select the beams from the 4th floor with a length greater than 5 meters.","[beam for beam in get_elements_by_floors_and_types(ifc_obj, ['IfcBeam'], [3]) if calculate_element_length(beam) > 5]"
+9407,"Select the walls from the 1st floor with an area greater than 50 square meters.","[wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [0]) if calculate_element_area(wall) > 50]"
+9408,"Select the doors from the 1st floor with a width greater than 1.5 meters.","[door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [0]) if calculate_element_width(door) > 1.5]"
+9409,"Select the spaces from the 2nd floor with an area greater than 100 square meters.","[space for space in get_elements_by_floors_and_types(ifc_obj, ['IfcSpace'], [1]) if calculate_element_area(space) > 100]"
+9410,"Select all the walls from the 1st floor with a volume greater than 10 cubic meters.","[wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [0]) if calculate_element_volume(wall) > 10]"
+9411,"Select the doors from the 2nd floor with a height greater than 2 meters.","[door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [1]) if calculate_element_height(door) > 2]"
+9412,"Select the spaces from the 3rd floor with an area greater than 150 square meters.","[space for space in get_elements_by_floors_and_types(ifc_obj, ['IfcSpace'], [2]) if calculate_element_area(space) > 150]"
+9413,"Select the windows from the 3rd floor.","[window for window in get_elements_by_floors_and_types(ifc_obj, ['IfcWindow'], [2])]"
+9414,"Select all the walls from the 2nd and 3rd floors.","[wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [1, 2])]"
+9415,"Select the columns from the 2nd floor with height greater than 3 meters.","[column for column in get_elements_by_floors_and_types(ifc_obj, ['IfcColumn'], [1]) if calculate_element_height(column) > 3]"
+9416,"Select the beams from the 4th floor with width greater than 0.5 meters.","[beam for beam in get_elements_by_floors_and_types(ifc_obj, ['IfcBeam'], [3]) if calculate_element_width(beam) > 0.5]"
+9417,"Select the walls from the 1st floor with a thickness greater than 0.3 meters.","[wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [0]) if calculate_element_thickness(wall) > 0.3]"
+9418,"Select the spaces from the 2nd floor with a volume greater than 200 cubic meters.","[space for space in get_elements_by_floors_and_types(ifc_obj, ['IfcSpace'], [1]) if calculate_element_volume(space) > 200]"
+9419,"Select all the doors from the 3rd floor.","[door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [2])]"
+9420,"Show all the windows on the 2nd and 3rd floors.","[window for window in get_elements_by_floors_and_types(ifc_obj, ['IfcWindow'], [1, 2])]"
+9421,"List the doors from the ground floor with a width larger than 1 meter.","[door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [0]) if calculate_element_width(door) > 1.0]"
+9422,"Get all walls from the 1st floor that are taller than 2.5 meters.","[wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [0]) if calculate_element_height(wall) > 2.5]"
+9423,"Find the beams on the 3rd floor that are longer than 6 meters.","[beam for beam in get_elements_by_floors_and_types(ifc_obj, ['IfcBeam'], [2]) if calculate_element_length(beam) > 6]"
+9424,"Fetch all the doors on the 1st floor that have a height greater than 2 meters.","[door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [0]) if calculate_element_height(door) > 2]"
+9425,"Retrieve windows from the 4th floor.","[window for window in get_elements_by_floors_and_types(ifc_obj, ['IfcWindow'], [3])]"
+9426,"Find the beams from the 5th floor that are wider than 0.8 meters.","[beam for beam in get_elements_by_floors_and_types(ifc_obj, ['IfcBeam'], [4]) if calculate_element_width(beam) > 0.8]"
+9427,"Show me the walls on the ground floor that have an area larger than 60 square meters.","[wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [0]) if calculate_element_area(wall) > 60]"
+9428,"Display all doors on the 1st floor where the width exceeds 1.2 meters.","[door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [0]) if calculate_element_width(door) > 1.2]"
+9429,"List the spaces from the 2nd floor with an area more than 120 square meters.","[space for space in get_elements_by_floors_and_types(ifc_obj, ['IfcSpace'], [1]) if calculate_element_area(space) > 120]"
+9430,"Get all walls on the 3rd floor with a volume greater than 20 cubic meters.","[wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [2]) if calculate_element_volume(wall) > 20]"
+9431,"Show all the doors on the 2nd floor with a height exceeding 2.2 meters.","[door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [1]) if calculate_element_height(door) > 2.2]"
+9432,"List the windows on the 4th floor.","[window for window in get_elements_by_floors_and_types(ifc_obj, ['IfcWindow'], [3])]"
+9433,"Get the doors from the 3rd floor where the width is larger than 1.5 meters.","[door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [2]) if calculate_element_width(door) > 1.5]"
+9434,"Fetch all the walls on the 5th floor with an area more than 75 square meters.","[wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [4]) if calculate_element_area(wall) > 75]"
+9435,"Retrieve all spaces on the 2nd floor that have a volume greater than 250 cubic meters.","[space for space in get_elements_by_floors_and_types(ifc_obj, ['IfcSpace'], [1]) if calculate_element_volume(space) > 250]"
+9436,"Find the windows from the 1st floor with height more than 1.5 meters.","[window for window in get_elements_by_floors_and_types(ifc_obj, ['IfcWindow'], [0]) if calculate_element_height(window) > 1.5]"
+9437,"List all beams on the 4th floor that are taller than 2 meters.","[beam for beam in get_elements_by_floors_and_types(ifc_obj, ['IfcBeam'], [3]) if calculate_element_height(beam) > 2]"
+9438,"Get the walls from the 1st and 2nd floors that have a thickness greater than 0.25 meters.","[wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [0, 1]) if calculate_element_thickness(wall) > 0.25]"
+9439,"Display all spaces from the 3rd floor with an area larger than 90 square meters.","[space for space in get_elements_by_floors_and_types(ifc_obj, ['IfcSpace'], [2]) if calculate_element_area(space) > 90]"
+9440,"Show the doors from the 2nd floor that have a height of more than 2.4 meters.","[door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [1]) if calculate_element_height(door) > 2.4]"
+9441,"Find the walls on the 3rd floor with a volume exceeding 15 cubic meters.","[wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [2]) if calculate_element_volume(wall) > 15]"
+9442,"Show the windows from the 5th floor.","[window for window in get_elements_by_floors_and_types(ifc_obj, ['IfcWindow'], [4])]"
+9443,"Fetch all beams on the 2nd floor that are longer than 4 meters.","[beam for beam in get_elements_by_floors_and_types(ifc_obj, ['IfcBeam'], [1]) if calculate_element_length(beam) > 4]"
+9444,"Get the walls on the 4th floor that have an area greater than 85 square meters.","[wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [3]) if calculate_element_area(wall) > 85]"
+9445,"List all doors on the 3rd floor that are taller than 2 meters.","[door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [2]) if calculate_element_height(door) > 2]"
+9446,"Find the walls on the ground floor with a thickness exceeding 0.2 meters.","[wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [0]) if calculate_element_thickness(wall) > 0.2]"
+9447,"Show the spaces on the 2nd floor with a volume greater than 300 cubic meters.","[space for space in get_elements_by_floors_and_types(ifc_obj, ['IfcSpace'], [1]) if calculate_element_volume(space) > 300]"
+9448,"List the doors on the 1st floor with a width greater than 1.8 meters.","[door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [0]) if calculate_element_width(door) > 1.8]"
+9449,"Retrieve all walls on the 5th floor that have a height larger than 3 meters.","[wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [4]) if calculate_element_height(wall) > 3]"
+9450,"Select all the walls from the 1st and 2nd floors with an area greater than 50 square meters.","[wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [0, 1]) if calculate_element_area(wall) > 50]"
+9451,"Show all doors from the 2nd and 3rd floors where the width is less than 1.2 meters.","[door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [1, 2]) if calculate_element_width(door) < 1.2]"
+9452,"List all beams on the 1st and 3rd floors with a height exceeding 3 meters.","[beam for beam in get_elements_by_floors_and_types(ifc_obj, ['IfcBeam'], [0, 2]) if calculate_element_height(beam) > 3]"
+9453,"Find all spaces from the 2nd and 4th floors that have an area larger than 100 square meters.","[space for space in get_elements_by_floors_and_types(ifc_obj, ['IfcSpace'], [1, 3]) if calculate_element_area(space) > 100]"
+9454,"Retrieve all walls from the 1st and 3rd floors where the volume is less than 25 cubic meters.","[wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [0, 2]) if calculate_element_volume(wall) < 25]"
+9455,"Get all windows from the 2nd and 3rd floors that are taller than 1.5 meters.","[window for window in get_elements_by_floors_and_types(ifc_obj, ['IfcWindow'], [1, 2]) if calculate_element_height(window) > 1.5]"
+9456,"Fetch all columns on the 2nd floor with a height smaller than 4 meters.","[column for column in get_elements_by_floors_and_types(ifc_obj, ['IfcColumn'], [1]) if calculate_element_height(column) < 4]"
+9457,"Show all doors from the 3rd and 4th floors where the width is greater than 1 meter.","[door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [2, 3]) if calculate_element_width(door) > 1]"
+9458,"List all the beams from the 1st and 2nd floors that have a length less than 5 meters.","[beam for beam in get_elements_by_floors_and_types(ifc_obj, ['IfcBeam'], [0, 1]) if calculate_element_length(beam) < 5]"
+9459,"Retrieve all the spaces on the 2nd and 4th floors with a volume greater than 200 cubic meters.","[space for space in get_elements_by_floors_and_types(ifc_obj, ['IfcSpace'], [1, 3]) if calculate_element_volume(space) > 200]"
+9460,"Find all walls on the 1st and 3rd floors where the thickness is less than 0.3 meters.","[wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [0, 2]) if calculate_element_thickness(wall) < 0.3]"
+9461,"Show all doors from the 2nd and 4th floors with a height exceeding 2.1 meters.","[door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [1, 3]) if calculate_element_height(door) > 2.1]"
+9462,"List all windows from the 1st and 2nd floors where the height is smaller than 1.8 meters.","[window for window in get_elements_by_floors_and_types(ifc_obj, ['IfcWindow'], [0, 1]) if calculate_element_height(window) < 1.8]"
+9463,"Fetch all walls from the 2nd and 3rd floors with an area less than 60 square meters.","[wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [1, 2]) if calculate_element_area(wall) < 60]"
+9464,"Show all the beams on the 1st and 3rd floors that have a length greater than 6 meters.","[beam for beam in get_elements_by_floors_and_types(ifc_obj, ['IfcBeam'], [0, 2]) if calculate_element_length(beam) > 6]"
+9465,"Retrieve all doors from the ground and 1st floors that have a width greater than 1.5 meters.","[door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [0, 1]) if calculate_element_width(door) > 1.5]"
+9466,"Find all windows on the 2nd and 4th floors with a height greater than 1.6 meters.","[window for window in get_elements_by_floors_and_types(ifc_obj, ['IfcWindow'], [1, 3]) if calculate_element_height(window) > 1.6]"
+9467,"Select all walls from the 2nd and 3rd floors with an area over 75 square meters.","[wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [1, 2]) if calculate_element_area(wall) > 75]"
+9468,"Show all doors from the first and second floors where the width exceeds 1.2 meters.","[door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [0, 1]) if calculate_element_width(door) > 1.2]"
+9469,"List all beams on the 4th and 5th floors that are longer than 5 meters.","[beam for beam in get_elements_by_floors_and_types(ifc_obj, ['IfcBeam'], [3, 4]) if calculate_element_length(beam) > 5]"
+9470,"Find all windows from the third and fourth floors that have a height less than 1.8 meters.","[window for window in get_elements_by_floors_and_types(ifc_obj, ['IfcWindow'], [2, 3]) if calculate_element_height(window) < 1.8]"
+9471,"Retrieve the doors from the 2nd and 3rd floors where the height is greater than 2 meters.","[door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [1, 2]) if calculate_element_height(door) > 2]"
+9472,"Fetch all walls on the ground floor and the first floor that have an area under 65 square meters.","[wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [0, 1]) if calculate_element_area(wall) < 65]"
+9473,"Get all the beams from the second and third floors that are shorter than 4 meters.","[beam for beam in get_elements_by_floors_and_types(ifc_obj, ['IfcBeam'], [1, 2]) if calculate_element_length(beam) < 4]"
+9474,"List the spaces from the 1st and 2nd floors with a volume exceeding 250 cubic meters.","[space for space in get_elements_by_floors_and_types(ifc_obj, ['IfcSpace'], [0, 1]) if calculate_element_volume(space) > 250]"
+9475,"Find all windows from the 3rd floor with a height of more than 1.6 meters.","[window for window in get_elements_by_floors_and_types(ifc_obj, ['IfcWindow'], [2]) if calculate_element_height(window) > 1.6]"
+9476,"Retrieve all doors from the 4th floor where the width is smaller than 1.5 meters.","[door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [3]) if calculate_element_width(door) < 1.5]"
+9477,"Show all walls on the 2nd and 3rd floors with a thickness greater than 0.3 meters.","[wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [1, 2]) if calculate_element_thickness(wall) > 0.3]"
+9478,"Fetch the beams from the first and second floors that are taller than 3 meters.","[beam for beam in get_elements_by_floors_and_types(ifc_obj, ['IfcBeam'], [0, 1]) if calculate_element_height(beam) > 3]"
+9479,"Find the spaces from the 2nd floor with a volume less than 200 cubic meters.","[space for space in get_elements_by_floors_and_types(ifc_obj, ['IfcSpace'], [1]) if calculate_element_volume(space) < 200]"
+9480,"Retrieve all the windows from the 4th floor that are taller than 1.75 meters.","[window for window in get_elements_by_floors_and_types(ifc_obj, ['IfcWindow'], [3]) if calculate_element_height(window) > 1.75]"
+9481,"List all doors on the 1st and 2nd floors where the height exceeds 2.1 meters.","[door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [0, 1]) if calculate_element_height(door) > 2.1]"
+9482,"Get all walls on the 3rd and 4th floors with an area smaller than 50 square meters.","[wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [2, 3]) if calculate_element_area(wall) < 50]"
+9483,"Show all spaces on the 2nd floor where the area is greater than 100 square meters.","[space for space in get_elements_by_floors_and_types(ifc_obj, ['IfcSpace'], [1]) if calculate_element_area(space) > 100]"
+9484,"Find the columns on the 1st and 3rd floors with a height of less than 4 meters.","[column for column in get_elements_by_floors_and_types(ifc_obj, ['IfcColumn'], [0, 2]) if calculate_element_height(column) < 4]"
+9485,"Retrieve all beams from the 1st floor that are longer than 7 meters.","[beam for beam in get_elements_by_floors_and_types(ifc_obj, ['IfcBeam'], [0]) if calculate_element_length(beam) > 7]"
+9486,"Fetch all the walls on the 5th floor with a volume greater than 15 cubic meters.","[wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [4]) if calculate_element_volume(wall) > 15]"
+9487,"List the windows from the 4th and 5th floors with a height exceeding 1.8 meters.","[window for window in get_elements_by_floors_and_types(ifc_obj, ['IfcWindow'], [3, 4]) if calculate_element_height(window) > 1.8]"
+9488,"Show all the doors from the ground floor where the width is larger than 1 meter.","[door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [0]) if calculate_element_width(door) > 1]"
+9489,"Get the walls from the 2nd and 3rd floors that have an area of less than 45 square meters.","[wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [1, 2]) if calculate_element_area(wall) < 45]"
+9490,"Find the beams on the 4th and 5th floors with a width smaller than 0.8 meters.","[beam for beam in get_elements_by_floors_and_types(ifc_obj, ['IfcBeam'], [3, 4]) if calculate_element_width(beam) < 0.8]"
+9491,"Select all doors from the 1st floor with a height smaller than 2 meters.","[door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [0]) if calculate_element_height(door) < 2]"
+9492,"List all walls on the 3rd floor that have a thickness of more than 0.4 meters.","[wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [2]) if calculate_element_thickness(wall) > 0.4]"
+9493,"Find all beams from the 2nd and 4th floors with a length exceeding 6 meters.","[beam for beam in get_elements_by_floors_and_types(ifc_obj, ['IfcBeam'], [1, 3]) if calculate_element_length(beam) > 6]"
+9494,"Fetch the spaces from the 1st and 2nd floors with a volume greater than 220 cubic meters.","[space for space in get_elements_by_floors_and_types(ifc_obj, ['IfcSpace'], [0, 1]) if calculate_element_volume(space) > 220]"
+9495,"Get all windows from the 4th and 5th floors that have a width less than 1 meter.","[window for window in get_elements_by_floors_and_types(ifc_obj, ['IfcWindow'], [3, 4]) if calculate_element_width(window) < 1]"
+9496,"Show all the walls on the 1st and 3rd floors with an area exceeding 80 square meters.","[wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [0, 2]) if calculate_element_area(wall) > 80]"
+9497,"List all columns from the 2nd floor that have a height smaller than 3 meters.","[column for column in get_elements_by_floors_and_types(ifc_obj, ['IfcColumn'], [1]) if calculate_element_height(column) < 3]"
+9498,"Retrieve all doors from the ground floor and the 2nd floor that are wider than 1.4 meters.","[door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [0, 1]) if calculate_element_width(door) > 1.4]"
+9499,"Find all spaces on the 4th floor where the volume is less than 300 cubic meters.","[space for space in get_elements_by_floors_and_types(ifc_obj, ['IfcSpace'], [3]) if calculate_element_volume(space) < 300]"
+9500,"Get the beams from the 1st and 3rd floors with a width greater than 0.7 meters.","[beam for beam in get_elements_by_floors_and_types(ifc_obj, ['IfcBeam'], [0, 2]) if calculate_element_width(beam) > 0.7]"
+9501,"Select all walls from the 5th floor with an area smaller than 90 square meters.","[wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [4]) if calculate_element_area(wall) < 90]"
+9502,"List all windows from the 2nd and 3rd floors where the height exceeds 2 meters.","[window for window in get_elements_by_floors_and_types(ifc_obj, ['IfcWindow'], [1, 2]) if calculate_element_height(window) > 2]"
+9503,"Show all columns on the 1st and 4th floors with a height greater than 4 meters.","[column for column in get_elements_by_floors_and_types(ifc_obj, ['IfcColumn'], [0, 3]) if calculate_element_height(column) > 4]"
+9504,"Find the doors on the 2nd floor that have a width smaller than 1.1 meters.","[door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [1]) if calculate_element_width(door) < 1.1]"
+9505,"Retrieve all beams from the 5th floor with a thickness greater than 0.25 meters.","[beam for beam in get_elements_by_floors_and_types(ifc_obj, ['IfcBeam'], [4]) if calculate_element_thickness(beam) > 0.25]"
+9506,"Fetch the walls from the 2nd and 4th floors that have an area less than 70 square meters.","[wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [1, 3]) if calculate_element_area(wall) < 70]"
+9507,"Show all doors on the 3rd and 4th floors where the height exceeds 2.5 meters.","[door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [2, 3]) if calculate_element_height(door) > 2.5]"
+9508,"List all spaces from the 2nd and 3rd floors with a volume of more than 250 cubic meters.","[space for space in get_elements_by_floors_and_types(ifc_obj, ['IfcSpace'], [1, 2]) if calculate_element_volume(space) > 250]"
+9509,"Get all windows from the ground floor and 1st floor that have a height smaller than 1.75 meters.","[window for window in get_elements_by_floors_and_types(ifc_obj, ['IfcWindow'], [0, 1]) if calculate_element_height(window) < 1.75]"
+9510,"Find all walls on the 5th floor where the thickness is greater than 0.3 meters.","[wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [4]) if calculate_element_thickness(wall) > 0.3]"
+9511,Count the walls from the 1st and 2nd floors with an area greater than 50 square meters.,"len([wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [0, 1]) if calculate_element_area(wall) > 50])"
+9512,How many doors from the 2nd and 3rd floors where the width is less than 1.2 meters.,"len([door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [1, 2]) if calculate_element_width(door) < 1.2])"
+9513,How many beams are there the 1st and 3rd floors that are longer than 5 meters.,"len([beam for beam in get_elements_by_floors_and_types(ifc_obj, ['IfcBeam'], [0, 2]) if calculate_element_length(beam) > 5])"
+9514,Count spaces from the 2nd and 4th floors with a volume greater than 200 cubic meters.,"len([space for space in get_elements_by_floors_and_types(ifc_obj, ['IfcSpace'], [1, 3]) if calculate_element_volume(space) > 200])"
+9515,Count columns from the 2nd floor with a height greater than 3 meters.,"len([column for column in get_elements_by_floors_and_types(ifc_obj, ['IfcColumn'], [1]) if calculate_element_height(column) > 3])"
+9516,Count windows from the 4th floor where the height is less than 1.8 meters.,"len([window for window in get_elements_by_floors_and_types(ifc_obj, ['IfcWindow'], [3]) if calculate_element_height(window) < 1.8])"
+9517,Count doors from the 1st and 2nd floors with a width greater than 1.5 meters.,"len([door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [0, 1]) if calculate_element_width(door) > 1.5])"
+9518,Count all beams from the 1st floor that are taller than 2 meters.,"len([beam for beam in get_elements_by_floors_and_types(ifc_obj, ['IfcBeam'], [0]) if calculate_element_height(beam) > 2])"
+9519,what is the count of spaces from the 2nd and 3rd floors with a volume smaller than 150 cubic meters.,"len([space for space in get_elements_by_floors_and_types(ifc_obj, ['IfcSpace'], [1, 2]) if calculate_element_volume(space) < 150])"
+9520,Count the walls from the 5th floor that have an area larger than 90 square meters.,"len([wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [4]) if calculate_element_area(wall) > 90])"
+9600,Count all the windows from the 1st and 2nd floors.,"len([window for window in get_elements_by_floors_and_types(ifc_obj, ['IfcWindow'], [0, 1])])"
+9601,Count the doors from the 1st floor.,"len([door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [0])])"
+9602,Count the walls from the 2nd floor.,"len([wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [1])])"
+9603,Count the beams from the 4th floor.,"len([beam for beam in get_elements_by_floors_and_types(ifc_obj, ['IfcBeam'], [3])])"
+9604,Count the doors from the 1st floor with height greater than 1.8 meters.,"len([door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [0]) if calculate_element_height(door) > 1.8])"
+9605,Count the windows from the 2nd floor.,"len([window for window in get_elements_by_floors_and_types(ifc_obj, ['IfcWindow'], [1])])"
+9606,Count the beams from the 4th floor with a length greater than 5 meters.,"len([beam for beam in get_elements_by_floors_and_types(ifc_obj, ['IfcBeam'], [3]) if calculate_element_length(beam) > 5])"
+9607,Count the walls from the 1st floor with an area greater than 50 square meters.,"len([wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [0]) if calculate_element_area(wall) > 50])"
+9608,Count the doors from the 1st floor with a width greater than 1.5 meters.,"len([door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [0]) if calculate_element_width(door) > 1.5])"
+9609,Count the spaces from the 2nd floor with an area greater than 100 square meters.,"len([space for space in get_elements_by_floors_and_types(ifc_obj, ['IfcSpace'], [1]) if calculate_element_area(space) > 100])"
+9610,Count all the walls from the 1st floor with a volume greater than 10 cubic meters.,"len([wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [0]) if calculate_element_volume(wall) > 10])"
+9611,"Count the doors from the 2nd floor with a height greater than 2 meters.","len([door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [1]) if calculate_element_height(door) > 2])"
+9612,"Count the spaces from the 3rd floor with an area greater than 150 square meters.","len([space for space in get_elements_by_floors_and_types(ifc_obj, ['IfcSpace'], [2]) if calculate_element_area(space) > 150])"
+9613,"Count the windows from the 3rd floor.","len([window for window in get_elements_by_floors_and_types(ifc_obj, ['IfcWindow'], [2])])"
+9614,"Count all the walls from the 2nd and 3rd floors.","len([wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [1, 2])])"
+9615,"Count the columns from the 2nd floor with height greater than 3 meters.","len([column for column in get_elements_by_floors_and_types(ifc_obj, ['IfcColumn'], [1]) if calculate_element_height(column) > 3])"
+9616,"Count the beams from the 4th floor with width greater than 0.5 meters.","len([beam for beam in get_elements_by_floors_and_types(ifc_obj, ['IfcBeam'], [3]) if calculate_element_width(beam) > 0.5])"
+9617,"Count the walls from the 1st floor with a thickness greater than 0.3 meters.","len([wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [0]) if calculate_element_thickness(wall) > 0.3])"
+9618,"Count the spaces from the 2nd floor with a volume greater than 200 cubic meters.","len([space for space in get_elements_by_floors_and_types(ifc_obj, ['IfcSpace'], [1]) if calculate_element_volume(space) > 200])"
+9619,"Count all the doors from the 3rd floor.","len([door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [2])])"
+9620,"Count all the windows on the 2nd and 3rd floors.","len([window for window in get_elements_by_floors_and_types(ifc_obj, ['IfcWindow'], [1, 2])])"
+9621,"Count the doors from the ground floor with a width larger than 1 meter.","len([door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [0]) if calculate_element_width(door) > 1.0])"
+9622,"Count all walls from the 1st floor that are taller than 2.5 meters.","len([wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [0]) if calculate_element_height(wall) > 2.5])"
+9623,"Count the beams on the 3rd floor that are longer than 6 meters.","len([beam for beam in get_elements_by_floors_and_types(ifc_obj, ['IfcBeam'], [2]) if calculate_element_length(beam) > 6])"
+9624,"Count all the doors on the 1st floor that have a height greater than 2 meters.","len([door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [0]) if calculate_element_height(door) > 2])"
+9625,"Count all windows from the 4th floor.","len([window for window in get_elements_by_floors_and_types(ifc_obj, ['IfcWindow'], [3])])"
+9626,"Count the beams from the 5th floor that are wider than 0.8 meters.","len([beam for beam in get_elements_by_floors_and_types(ifc_obj, ['IfcBeam'], [4]) if calculate_element_width(beam) > 0.8])"
+9627,"Count the walls on the ground floor that have an area larger than 60 square meters.","len([wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [0]) if calculate_element_area(wall) > 60])"
+9628,"Count all doors on the 1st floor where the width exceeds 1.2 meters.","len([door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [0]) if calculate_element_width(door) > 1.2])"
+9629,"Count the spaces from the 2nd floor with an area more than 120 square meters.","len([space for space in get_elements_by_floors_and_types(ifc_obj, ['IfcSpace'], [1]) if calculate_element_area(space) > 120])"
+9630,"Count all walls on the 3rd floor with a volume greater than 20 cubic meters.","len([wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [2]) if calculate_element_volume(wall) > 20])"
+9631,"Count all the doors on the 2nd floor with a height exceeding 2.2 meters.","len([door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [1]) if calculate_element_height(door) > 2.2])"
+9632,"Count the windows on the 4th floor.","len([window for window in get_elements_by_floors_and_types(ifc_obj, ['IfcWindow'], [3])])"
+9633,"Count the doors from the 3rd floor where the width is larger than 1.5 meters.","len([door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [2]) if calculate_element_width(door) > 1.5])"
+9634,"Count the walls on the 5th floor with an area more than 75 square meters.","len([wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [4]) if calculate_element_area(wall) > 75])"
+9635,"Count all spaces on the 2nd floor that have a volume greater than 250 cubic meters.","len([space for space in get_elements_by_floors_and_types(ifc_obj, ['IfcSpace'], [1]) if calculate_element_volume(space) > 250])"
+9636,"Count the windows from the 1st floor with height more than 1.5 meters.","len([window for window in get_elements_by_floors_and_types(ifc_obj, ['IfcWindow'], [0]) if calculate_element_height(window) > 1.5])"
+9637,"Count all beams on the 4th floor that are taller than 2 meters.","len([beam for beam in get_elements_by_floors_and_types(ifc_obj, ['IfcBeam'], [3]) if calculate_element_height(beam) > 2])"
+9638,"Count the walls from the 1st and 2nd floors that have a thickness greater than 0.25 meters.","len([wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [0, 1]) if calculate_element_thickness(wall) > 0.25])"
+9639,"Count all spaces from the 3rd floor with an area larger than 90 square meters.","len([space for space in get_elements_by_floors_and_types(ifc_obj, ['IfcSpace'], [2]) if calculate_element_area(space) > 90])"
+9640,"Count the doors from the 2nd floor that have a height of more than 2.4 meters.","len([door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [1]) if calculate_element_height(door) > 2.4])"
+9640,"Count the doors from the 2nd floor that have a height of more than 2.4 meters.","len([door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [1]) if calculate_element_height(door) > 2.4])"
+9641,"Count the walls on the 3rd floor with a volume exceeding 15 cubic meters.","len([wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [2]) if calculate_element_volume(wall) > 15])"
+9642,"Count the windows from the 5th floor.","len([window for window in get_elements_by_floors_and_types(ifc_obj, ['IfcWindow'], [4])])"
+9643,"Count all beams on the 2nd floor that are longer than 4 meters.","len([beam for beam in get_elements_by_floors_and_types(ifc_obj, ['IfcBeam'], [1]) if calculate_element_length(beam) > 4])"
+9644,"Count the walls on the 4th floor that have an area greater than 85 square meters.","len([wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [3]) if calculate_element_area(wall) > 85])"
+9645,"Count all doors on the 3rd floor that are taller than 2 meters.","len([door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [2]) if calculate_element_height(door) > 2])"
+9646,"Count the walls on the ground floor with a thickness exceeding 0.2 meters.","len([wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [0]) if calculate_element_thickness(wall) > 0.2])"
+9647,"Count the spaces on the 2nd floor with a volume greater than 300 cubic meters.","len([space for space in get_elements_by_floors_and_types(ifc_obj, ['IfcSpace'], [1]) if calculate_element_volume(space) > 300])"
+9648,"Count the doors on the 1st floor with a width greater than 1.8 meters.","len([door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [0]) if calculate_element_width(door) > 1.8])"
+9649,"Count all walls on the 5th floor that have a height larger than 3 meters.","len([wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [4]) if calculate_element_height(wall) > 3])"
+9650,"Count all the walls from the 1st and 2nd floors with an area greater than 50 square meters.","len([wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [0, 1]) if calculate_element_area(wall) > 50])"
+9651,"Count all doors from the 2nd and 3rd floors where the width is less than 1.2 meters.","len([door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [1, 2]) if calculate_element_width(door) < 1.2])"
+9652,"Count all beams on the 1st and 3rd floors with a height exceeding 3 meters.","len([beam for beam in get_elements_by_floors_and_types(ifc_obj, ['IfcBeam'], [0, 2]) if calculate_element_height(beam) > 3])"
+9653,"Count all spaces from the 2nd and 4th floors that have an area larger than 100 square meters.","len([space for space in get_elements_by_floors_and_types(ifc_obj, ['IfcSpace'], [1, 3]) if calculate_element_area(space) > 100])"
+9654,"Count all walls from the 1st and 3rd floors where the volume is less than 25 cubic meters.","len([wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [0, 2]) if calculate_element_volume(wall) < 25])"
+9655,"Count all windows from the 2nd and 3rd floors that are taller than 1.5 meters.","len([window for window in get_elements_by_floors_and_types(ifc_obj, ['IfcWindow'], [1, 2]) if calculate_element_height(window) > 1.5])"
+9656,"Count all columns on the 2nd floor with a height smaller than 4 meters.","len([column for column in get_elements_by_floors_and_types(ifc_obj, ['IfcColumn'], [1]) if calculate_element_height(column) < 4])"
+9657,"Count all doors from the 3rd and 4th floors where the width is greater than 1 meter.","len([door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [2, 3]) if calculate_element_width(door) > 1])"
+9658,"Count all beams from the 1st and 2nd floors that have a length less than 5 meters.","len([beam for beam in get_elements_by_floors_and_types(ifc_obj, ['IfcBeam'], [0, 1]) if calculate_element_length(beam) < 5])"
+9659,"Count all spaces on the 2nd and 4th floors with a volume greater than 200 cubic meters.","len([space for space in get_elements_by_floors_and_types(ifc_obj, ['IfcSpace'], [1, 3]) if calculate_element_volume(space) > 200])"
+9660,"Count all walls on the 1st and 3rd floors where the thickness is less than 0.3 meters.","len([wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [0, 2]) if calculate_element_thickness(wall) < 0.3])"
+9611,"Count all walls from the 1st and 2nd floors with an area greater than 50 square meters.","len([wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [0, 1]) if calculate_element_area(wall) > 50])"
+9612,"Count all doors from the 2nd and 3rd floors where the width is less than 1.2 meters.","len([door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [1, 2]) if calculate_element_width(door) < 1.2])"
+9613,"Count the beams from the 1st and 3rd floors that are longer than 5 meters.","len([beam for beam in get_elements_by_floors_and_types(ifc_obj, ['IfcBeam'], [0, 2]) if calculate_element_length(beam) > 5])"
+9614,"Count the spaces from the 2nd and 4th floors with a volume greater than 200 cubic meters.","len([space for space in get_elements_by_floors_and_types(ifc_obj, ['IfcSpace'], [1, 3]) if calculate_element_volume(space) > 200])"
+9615,"Count the columns from the 2nd floor with a height greater than 3 meters.","len([column for column in get_elements_by_floors_and_types(ifc_obj, ['IfcColumn'], [1]) if calculate_element_height(column) > 3])"
+9616,"Count all windows from the 4th floor where the height is less than 1.8 meters.","len([window for window in get_elements_by_floors_and_types(ifc_obj, ['IfcWindow'], [3]) if calculate_element_height(window) < 1.8])"
+9617,"Count the doors from the 1st and 2nd floors with a width greater than 1.5 meters.","len([door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [0, 1]) if calculate_element_width(door) > 1.5])"
+9618,"Count all beams from the 1st floor that are taller than 2 meters.","len([beam for beam in get_elements_by_floors_and_types(ifc_obj, ['IfcBeam'], [0]) if calculate_element_height(beam) > 2])"
+9619,"Count the spaces from the 2nd and 3rd floors with a volume smaller than 150 cubic meters.","len([space for space in get_elements_by_floors_and_types(ifc_obj, ['IfcSpace'], [1, 2]) if calculate_element_volume(space) < 150])"
+9620,"Count the walls from the 5th floor that have an area larger than 90 square meters.","len([wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [4]) if calculate_element_area(wall) > 90])"
+9621,"Count the number of windows on the 3rd and 4th floors that are taller than 1.7 meters.","len([window for window in get_elements_by_floors_and_types(ifc_obj, ['IfcWindow'], [2, 3]) if calculate_element_height(window) > 1.7])"
+9622,"Count all doors on the 2nd floor that have a width greater than 1 meter.","len([door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [1]) if calculate_element_width(door) > 1])"
+9623,"How many beams on the 1st and 3rd floors are longer than 6 meters?","len([beam for beam in get_elements_by_floors_and_types(ifc_obj, ['IfcBeam'], [0, 2]) if calculate_element_length(beam) > 6])"
+9624,"Find the number of walls on the 2nd floor with an area greater than 100 square meters.","len([wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [1]) if calculate_element_area(wall) > 100])"
+9625,"How many spaces on the ground and 1st floors have a volume smaller than 300 cubic meters?","len([space for space in get_elements_by_floors_and_types(ifc_obj, ['IfcSpace'], [0, 1]) if calculate_element_volume(space) < 300])"
+9626,"Count the walls on the 4th and 5th floors where the thickness is more than 0.35 meters.","len([wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [3, 4]) if calculate_element_thickness(wall) > 0.35])"
+9627,"Find the number of windows on the 2nd and 3rd floors with a height less than 1.5 meters.","len([window for window in get_elements_by_floors_and_types(ifc_obj, ['IfcWindow'], [1, 2]) if calculate_element_height(window) < 1.5])"
+9628,"Count all doors on the 1st and 2nd floors that have a width smaller than 1.4 meters.","len([door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [0, 1]) if calculate_element_width(door) < 1.4])"
+9629,"How many columns on the 2nd and 4th floors are taller than 4 meters?","len([column for column in get_elements_by_floors_and_types(ifc_obj, ['IfcColumn'], [1, 3]) if calculate_element_height(column) > 4])"
+9630,"Find the number of walls on the 5th floor with a volume smaller than 20 cubic meters.","len([wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [4]) if calculate_element_volume(wall) < 20])"
+9631,"How many beams on the 3rd floor are wider than 0.6 meters?","len([beam for beam in get_elements_by_floors_and_types(ifc_obj, ['IfcBeam'], [2]) if calculate_element_width(beam) > 0.6])"
+9632,"Count the spaces on the ground and 2nd floors with an area greater than 120 square meters.","len([space for space in get_elements_by_floors_and_types(ifc_obj, ['IfcSpace'], [0, 1]) if calculate_element_area(space) > 120])"
+9633,"How many walls on the 4th floor have a thickness less than 0.25 meters?","len([wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [3]) if calculate_element_thickness(wall) < 0.25])"
+9634,"Count the windows on the 1st floor that have a height exceeding 2 meters.","len([window for window in get_elements_by_floors_and_types(ifc_obj, ['IfcWindow'], [0]) if calculate_element_height(window) > 2])"
+9635,"Find the number of beams on the 2nd floor that are shorter than 3 meters.","len([beam for beam in get_elements_by_floors_and_types(ifc_obj, ['IfcBeam'], [1]) if calculate_element_length(beam) < 3])"
+9636,"How many doors on the 3rd floor have a width less than 1.1 meters?","len([door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [2]) if calculate_element_width(door) < 1.1])"
+9637,"Count all walls on the 2nd and 3rd floors that have an area smaller than 80 square meters.","len([wall for wall in get_elements_by_floors_and_types(ifc_obj, ['IfcWall', 'IfcWallStandardCase'], [1, 2]) if calculate_element_area(wall) < 80])"
+9638,"Find the number of doors on the 4th and 5th floors that are taller than 2.5 meters.","len([door for door in get_elements_by_floors_and_types(ifc_obj, ['IfcDoor'], [3, 4]) if calculate_element_height(door) > 2.5])"
+9639,"Count the beams on the 1st and 3rd floors with a width larger than 0.75 meters.","len([beam for beam in get_elements_by_floors_and_types(ifc_obj, ['IfcBeam'], [0, 2]) if calculate_element_width(beam) > 0.75])"
+9640,"How many spaces on the 2nd floor have a volume exceeding 350 cubic meters?","len([space for space in get_elements_by_floors_and_types(ifc_obj, ['IfcSpace'], [1]) if calculate_element_volume(space) > 350])"
